@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sung Pumpkin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    
+        <!-- <header><h2 class="logo">Sung <span>Pumpkin</span></h2></header>
+    
+    
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav> -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button> -->
+            <a class="navbar-brand" href="#home">Sung <span>Pumpkin</span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Home</a></li>
+              <li><a href="#product">Product</a></li>
+              <!-- <li><a href="#">Services</a></li> -->
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+    
+    <section id="home" class="container2">
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="/images/photo_1 (1).jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/images/photo_1 (2).jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/images/photo_1 (3).jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/images/photo_1 (4).jpg" alt=""></div>
+      <div class="swiper-slide"><img src="/images/photo_1 (5).jpg" alt=""></div>
+     
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
+  
+    </section>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> 
+    <script>
+        const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+    </script>
+    </script>
+    
+    <section class="container3">
+            <!--container (Product section)-->
+        <div id="product" class="text-center">
+          <!-- <h3 style="color: coral;">Products Available</h3> -->
+       <h2>PRODUCT</h2>
+      </div>
+          <div class="row">
+              <div class="card">
+                  <img src="/images/Freshpumpkins.jpg" alt="">
+                  <h4>Fresh Pumpkin</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, aliquam modi rerum excepturi quia?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, culpa!</p>
+                  <a href="#" class="btn">Read More</a>
+              </div>
+              <div class="card">
+                  <img src="/images/pumpkinseeds.jpg" alt="">
+                  <h4>Dried Pumpkin Seeds</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, aliquam modi rerum excepturi quia?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, culpa!</p>
+                  <a href="#" class="btn">Read More</a>
+              </div>
+              <div class="card">
+                  <img src="/images/pumpkinoil.jpg" alt="">
+                  <h4>Natural Oil from Pumpkin seeds</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consectetur, aliquam modi rerum excepturi quia?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, culpa!</p>
+                  <a href="#" class="btn">Read More</a>
+              </div>
+          </div>
+    </section>
+    <!--container (Contact section)-->
+    <section id="contact" class="container4">
+            <div class="contact-box">
+              <div class="left">
+                <p class="para">Get in touch with us for a chance to experience the full benefits of pumpkin.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Kumbiahi, WA UPPER WEST REGION</p>
+        <p><span class="glyphicon glyphicon-phone"></span> 0591276696</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> csungbabaara@gmail.com</p>
+              </div>
+              <div class="right">
+                <h2>Contact Us</h2>
+                <input type="text" class="field" placeholder="Your Name">
+                <input type="email" class="field" placeholder="Your Email">
+                <input type="text" class="field" placeholder="Phone Number">
+                <textarea class="field area" placeholder="Message"></textarea>
+                <button class="btn">Send</button>
+              </div>
+            </div>
+    </section>
+    <!--container (About section)-->
+    <section id="about" class="sec5">
+        <div class="container5">
+            <div class="content-section">
+                <div class="title">
+                    <h1>About Us</h1>
+                </div>
+                <div class="content">
+                    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam porro voluptatibus consequuntur sequi consequatur facere cumque eligendi minus qui vel, odit harum quae ea molestias, itaque expedita nobis beatae velit deleniti? Porro dignissimos quidem,  
+                        Minima quas id saepe maiores minus ab, provident excepturi velit illum nisi qui doloribus corrupti. Ullam illo veniam cupiditate qui fugiat nostrum officiis voluptas magni porro nemo mollitia, autem enim quisquam expedita ex sunt soluta dolores placeat, 
+                        optio repudiandae fuga asperiores et quod aperiam ad inventore mollitia possimus commodi obcaecati nemo assumenda magni. </p>
+                </div>
+            </div>
+            <div class="image-section">
+                <img src="/images/C sung.png" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
